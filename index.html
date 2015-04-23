@@ -6,7 +6,9 @@
 </head>
 <body>
 	
-	<div>{{map}}</div>
+	<div ng-app="MapApp" ng-controller="MapController">
+		<img ng-src="{{map}}"/>
+	</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
 	<script src="editme.js"></script>
